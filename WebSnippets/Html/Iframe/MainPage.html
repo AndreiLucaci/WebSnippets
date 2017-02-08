@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Main page</title>
+    <meta charset="utf-8" />
+    <style>
+        body, html {
+            height: 100%;
+        }
+         .left {
+             width: 200px;
+             float: left;
+             background-color: #00bfff;
+             height: 100vh;
+         }
+
+         .left a {
+             font-family: sans-serif;
+             font-size: 20px;
+             display: block;
+             height: 80px;
+         }
+
+        .right {
+            margin-left: 200px;
+        }
+
+        .right iframe {
+            width: 100%;
+            height:100vh;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <div class="hrefs">
+            <a class="my-href-1" href="#" id="a-name">
+                <span>The text I want to change</span>
+            </a>
+            <a class="my-href-2" href="#">
+                <span>Some url?</span>
+            </a>
+        </div>
+    </div>
+    <div class="right">
+        <iframe src="Iframe1.html" sandbox="allow-same-origin allow-scripts"></iframe>
+    </div>
+</body>
+</html>
