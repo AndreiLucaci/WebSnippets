@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Html\Iframe\Iframe1.html" />
+    <Content Include="Html\Iframe\MainPage.html" />
+    <Content Include="Html\Iframe\script.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
